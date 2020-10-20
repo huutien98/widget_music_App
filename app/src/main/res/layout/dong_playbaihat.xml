@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textviewplaynhacindex"
+            android:text="1"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textviewplaynhactenbaihat"
+            android:text="Tên ca khúc"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_toRightOf="@+id/textviewplaynhacindex"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textviewplaynhactencasy"
+            android:text="Tên ca sỹ"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_toRightOf="@+id/textviewplaynhacindex"
+            android:layout_below="@+id/textviewplaynhacindex"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </RelativeLayout>
+</RelativeLayout>

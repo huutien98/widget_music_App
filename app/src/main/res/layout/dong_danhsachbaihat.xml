@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textviewdsindex"
+            android:text="1"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textviewtenbaihat"
+            android:text="Tên ca khúc"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:layout_toRightOf="@+id/textviewdsindex"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textviewtencasy"
+            android:layout_below="@+id/textviewtenbaihat"
+            android:layout_toRightOf="@+id/textviewdsindex"
+            android:text="Ca sỹ"
+            android:textSize="20sp"
+            android:textColor="#979797"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageviewthichdsbaihat"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/iconlove"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+        </ImageView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

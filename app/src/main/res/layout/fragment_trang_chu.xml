@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/lineartrangchu"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        <fragment-->
+<!--            android:id="@+id/search_bar"-->
+<!--            android:name="com.shinmusic.Fragment.Fragment_Timkiem"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </fragment>-->
+        <fragment
+            android:id="@+id/fragmentbanner"
+            android:name="com.shinmusic.Fragment.Fragment_Banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+
+        <fragment
+            android:id="@+id/chudetheloai"
+            android:name="com.shinmusic.Fragment.Fragment_ChuDe_TheLoai_ToDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+
+        <fragment
+            android:id="@+id/album"
+            android:name="com.shinmusic.Fragment.Fragment_Album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:id="@+id/baihathot"
+            android:name="com.shinmusic.Fragment.Fragment_Bai_Hat_Hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+
+    </LinearLayout>
+</ScrollView>

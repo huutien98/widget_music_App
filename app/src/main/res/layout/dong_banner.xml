@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageviewbgbanner"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </ImageView>
+    
+    <View
+        android:background="@drawable/custom_bg_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_alignBottom="@+id/imageviewbgbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageviewbanner"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="2dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textviewtittlebannerbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageviewbanner"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="26dp"
+            android:layout_toRightOf="@+id/imageviewbanner"
+            android:text="Ca khúc mới"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"></TextView>
+
+        <RelativeLayout
+
+            android:layout_toRightOf="@+id/textviewtittlebannerbaihat"
+            android:layout_below="@+id/imageviewbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+            <TextView
+                android:id="@+id/textviewnoidung"
+                android:text="Ca khúc mới bắt đầu 1 ngày mới"
+                android:textColor="#ffffff"
+                android:maxLines="2"
+                android:layout_marginRight="40dp"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
